@@ -15,8 +15,8 @@ fieldset {
     padding: 15px;
 }
 
-ul.zzz li {
-    margin: 20px 0;
+.zzz li {
+    margin: 15px 0 15px -45px;
 }
 
 .wrapper {
@@ -30,3 +30,6 @@ span.xxx {
     font-style: italic;
 }
 
+.top li {
+    margin-left: -45px;
+}

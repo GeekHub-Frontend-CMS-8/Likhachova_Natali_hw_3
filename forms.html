@@ -24,18 +24,18 @@
     </fieldset>
     <fieldset>
         <legend>Подробнее о себе</legend>
-        <ul>
+        <ul class="top">
             <li><label><input type="radio" name="boyORgirl" value="boy" checked>Молодой человек</label></li>
             <li><label><input type="radio" name="boyORgirl" value="girl">Девушка</label></li>
         </ul>
-        <ul>
+        <ul class="top">
             <li><label for="birthday"><input type="text" id="birthday"> Дата рождения</label></li>
             <li><label for="family status"><input type="text" id="family status"> Семейное положение</label></li>
             <li><label for="social status"><input type="text" id="social status"> Социальный статус</label></li>
             <li><label for="residence"><input type="text" id="residence"> Местожительство</label></li>
         </ul>
         <p><b>Что вы обычно делаете на выходных:</b></p>
-        <ul>
+        <ul class="top">
             <li><label><input type="checkbox" name="sleep" value="yes" > Сплю</label></li>
             <li><label><input type="checkbox" name="walking_with_friends" value="yes"> Гуляю с друзьями</label></li>
             <li><label><input type="checkbox" name="fishing" value="yes"> Хожу на рыбалку</label></li>
@@ -48,7 +48,7 @@
             <option value="3">Comprehensive manual</option>
         </select></p>
         <p><b>Сколько книг вы прочитали за свою жизнь:</b></p>
-        <ul>
+        <ul class="top">
             <li><label><input type="radio" name="book" value="0-10"> 0-10</label></li>
             <li><label><input type="radio" name="book" value="11-20"> 11-20</label></li>
             <li><label><input type="radio" name="book" value="21-50"> 21-50</label></li>
@@ -62,7 +62,6 @@
             <option value="3">Третья позиция</option>
         </select>
     </fieldset>
-
     <fieldset>
         <legend>И в заключении</legend>
         <input type="text" name="for_you" value="Это поле было введено для вас" disabled>
@@ -70,20 +69,19 @@
         <input type="email" name="email" id="email">
         <p><b>Хотите подписаться на самую модную рассылку спама?</b></p>
         <p><span class="xxx">Выберите категории</span></p>
-        <ul>
+        <ul class="top">
             <li><label><input type="checkbox" name="equipment" value="yes"> Оборудование</label></li>
             <li><label><input type="checkbox" name="how to cook dinners" value="yes"> Как приготовить обеды</label></li>
             <li><label><input type="checkbox" name="make money" value="yes"> Заработай миллион за два дня!</label></li>
         </ul>
         <p><b>На сколько сложная задача:</b></p>
-        <ul>
+        <ul class="top">
             <li><label><input type="radio" name="task" value="not at all" checked></label> Совсем нет</li>
             <li><label><input type="radio" name="task" value="so-so"></label> Так себе</li>
             <li><label><input type="radio" name="task" value="barely managed"></label> Еле справились</li>
         </ul>
     </fieldset>
     <p><input type="submit" value="Отправить"></p>
-
 </form>
 </div>
 </body>
